@@ -2,5 +2,4 @@ const num1 = parseInt(prompt('Enter the first number: '));
 const num2 = parseInt(prompt('Enter the second number: '));
 const sum = num1 + num2;
 console.log(`The sum of ${num1} and ${num2} is: ${sum}`);
-AI-generated code. Review and use carefully. More info on FAQ.
-In this example, the parseInt() method is used to convert the user input string to a number. The prompt() method is used to take inputs from the user. The + operator is used to add the two numbers and the result is stored in the variable sum. Finally, the console.log() method is used to display the sum of the two numbers.
+
