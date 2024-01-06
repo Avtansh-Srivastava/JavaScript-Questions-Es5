@@ -1,0 +1,11 @@
+const num1 = parseInt(prompt('Enter the first number: '));
+const num2 = parseInt(prompt('Enter the second number: '));
+const difference = num1 - num2;
+console.log(`The difference between ${num1} and ${num2} is: ${difference}`);
+
+In this example, the parseInt() method is used to convert the user input string to a number.
+The prompt() method is used to take inputs from the user. The - operator is used to subtract the second number from the first number and the result is stored in the variable difference.
+Finally, the console.log() method is used to display the difference between the two numbers.
+
+
+
