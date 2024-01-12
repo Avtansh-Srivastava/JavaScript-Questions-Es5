@@ -1,0 +1,3 @@
+let myName = "John";
+let mySentence = "My name is ";
+mySentence += myName;
