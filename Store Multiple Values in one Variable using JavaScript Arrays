@@ -1,0 +1,5 @@
+let myArray = [1, 'hello', true, [2, 3]];
+console.log(myArray[0]); // Output: 1
+console.log(myArray[1]); // Output: 'hello'
+console.log(myArray[2]); // Output: true
+console.log(myArray[3]); // Output: [2, 3]
