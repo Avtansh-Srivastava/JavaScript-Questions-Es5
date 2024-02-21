@@ -1,0 +1,8 @@
+// Example string
+var txt = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+
+// Get the length of the string
+var len = txt.length;
+
+// Display the result
+console.log("The length of the string is: `${len}`);
