@@ -1,0 +1,27 @@
+1.Strict Equality Operator (===):
+The strict equality operator behaves identically to the abstract equality operator, except no type conversion is performed.
+To be considered equal using ===, the types must match exactly.
+If two values are not of the same type, === will simply return false.
+
+Example:
+JavaScript
+
+5 === 5; // true (both operands are numbers)
+'hello' === 'world'; // false (both operands are strings)
+5 === '5'; // false (number and string are different types)
+
+2.Abstract Equality Operator (==):
+The abstract equality operator compares for equality after performing necessary type conversions.
+If the types are different, it attempts to coerce the values to make the comparison possible.
+Example:
+
+JavaScript
+
+5 == 5; // true (both operands are numbers)
+'hello' == 'world'; // false (both operands are strings)
+5 == '5'; // true (coerces string to a number for comparison)
+
+<.>Always prefer using === over == to avoid unexpected type conversions.
+The strict equality operator ensures more predictable behavior.
+Following Douglas Crockford’s advice from “JavaScript: The Good Parts,” never use the evil twins (== and !=).
+Remember that for objects, == and === behave consistently with each other, except in special cases.
