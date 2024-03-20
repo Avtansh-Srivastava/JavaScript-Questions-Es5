@@ -1,0 +1,11 @@
+const myList = [
+  ["Chocolate Bar", 15],
+  ["Apples", 10],
+  ["Toothpaste", 2],
+  ["Paper Towels", 6],
+  ["Coffee", 1]
+];
+
+// Accessing items:
+console.log(myList[0]); // ["Chocolate Bar", 15]
+console.log(myList[2]); // ["Toothpaste", 2]
