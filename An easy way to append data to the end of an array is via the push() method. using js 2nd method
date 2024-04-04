@@ -1,0 +1,10 @@
+// Initialize an array
+var arr = ["Hi", "Hello", "Bonjour", "Hola"];
+
+// Append multiple values to the array
+arr.push("Salut", "Hey");
+
+// Display all values
+for (var i = 0; i < arr.length; i++) {
+    console.log(arr[i]);
+}
