@@ -1,0 +1,8 @@
+// Initialize an array
+var arr = ["Hi", "Hello", "Bonjour"];
+
+// Append a new value to the array
+arr.push("Hola");
+
+// Display the updated array
+console.log(arr); // Output: ["Hi", "Hello", "Bonjour", "Hola"]
